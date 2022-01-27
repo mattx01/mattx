@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!21-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <style>
+   
+    nav {
+      color:white;
+      background-color: #2C5364;
+  box-shadow: 0 10px 4px 0 rgba(0,0,0,.2);
+}
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#" style="color:white;">SIMUTU/Sarpras</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="color:white;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="color:white;">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="color:white;">
+                Tanah & Bangunan
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="color:white;">
+                Ruang
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white;">
+                Alat
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color:white;">Log out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container-sm  " style="color: black ; background-color: #eeeeee;" >
+      <br>
+      <p class="fw-bold" style="text-align:center; color:black;">-Tambah Tanah / Bangunan-</p>
+        <div class="row g-5">
+          <div class="col">
+            <div class="form-group row">
+              <label for="input1" class="col col-form-label">Jenis Prasana</label>
+              <div class="col">
+                <select class="form-select" aria-label="Default select example" id="input1">
+                  <option selected>Ruang Sirkulasi</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <br>
+            <div class="form-group row">
+              <label for="input2" class="col col-form-label">Nama</label>
+              <div class="col">
+                <input type="text" class="form-control" id="input2">
+              </div>
+            </div>
+            <br>
+            <div class="form-group row">
+              <label for="input3" class="col col-form-label">No. Sertifikat</label>
+              <div class="col">
+                <input type="text" class="form-control" id="input3">
+              </div>
+            </div>
+            <br>
+            <div class="form-group row">
+              <label for="input4" class="col col-form-label">Panjang</label>
+              <div class="col">
+                <input type="text" class="form-control" id="input4">
+              </div>
+            </div>
+            <br>
+            <div class="form-group row">
+              <label for="input5" class="col col-form-label">Lebar</label>
+              <div class="col">
+                <input type="text" class="form-control" id="input5">
+              </div>
+            </div>
+            <br>
+            <div class="form-group row">
+              <label for="input6" class="col col-form-label">Luas Tpk. Bangunan</label>
+              <div class="col">
+                <input type="text" class="form-control" id="input6">
+              </div>
+            </div>
+            <!-- COL KE 2 -->
+            
+          </div>
+          <div class="col">
+            <div class="form-group row">
+              <label for="input7" class="col col-form-label">Kepemilikan</label>
+              <div class="col">
+                <select class="form-select" aria-label="Default select example" id="input7">
+                  <option selected>Milik</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <br>
+            <div class="form-group row">
+              <label for="input8" class="col col-form-label">Yang Meminjamkan</label>
+              <div class="col">
+                <input type="text" class="form-control" id="input8">
+              </div>
+            </div>
+            <br>
+            <div class="form-group row">
+              <label for="input9" class="col col-form-label">Nilai Perolehan Aset</label>
+              <div class="col">
+                <input type="text" class="form-control" id="input9">
+              </div>
+            </div>
+            <br>
+            <div class="form-group row">
+              <label for="input10" class="col col-form-label">Jumlah Lantai</label>
+              <div class="col">
+                <input type="text" class="form-control" id="input10">
+              </div>
+            </div>
+            <br>
+            <div class="form-group row">
+              <label for="input11" class="col col-form-label">Tahun Dibangun</label>
+              <div class="col">
+                <input type="text" class="form-control" id="input11">
+              </div>
+            </div>
+            <br>
+            <div class="form-group row">
+              <label for="input12" class="col col-form-label">Keterangan</label>
+              <div class="col">
+                <input type="text" class="form-control" id="input12">
+              </div>
+            </div>
+            <br>
+            <div class="form-group row">
+              <label for="input13" class="col col-form-label">Tgl SK. Pemakai</label>
+              <div class="col">
+                <input type="date" class="form-control" id="input13">
+              </div>
+            </div>
+            <br>
+            <div class="col" style="float: right;">
+              <button type="button" class="btn btn-primary">Simpan</button>
+              <button type="button" class="btn btn-danger">Batal</button>
+            </div>
+          </div>
+        </div>
+        <br>
+       
+      </div>        
+    </div>
+    <br>
+    <p style="color:white;">Created By Rahmat</p>
+    <script src="js/bootstrap.bundle.min.js" ></script>
+
+  </body>
+  
+</html>
