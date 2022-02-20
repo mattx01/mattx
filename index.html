@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar">
+    <div class="container-fluid">
+      <h2><a class="navbar-brand" href="#" style="color: black">BraveMart</a></h2>
+    <div class="menu-item">
+    <div class="imgBox" onclick="myFunction()">
+      <img src="profile_pic.png" alt="profil_pic">
+    </div>
+    <span>My Account</span>
+  </div>
+</div>
+</nav>
+
+<div class="menu-content">
+  <div class="col-9">
+      <div class="content row">
+        <div class="name">Welcome </div>
+        <div class="occupation">Saldo ------.Rp</div>
+      </div>
+      <ul class="links row">
+        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> My Profile</a></li>
+        <li><a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit Profile</a></li>
+        <div class="divider"></div>
+        <li><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i> Settings</a></li>
+        <li><a href="#"><i class="fa fa-question" aria-hidden="true"></i> Help</a></li>
+        <div class="divider"></div>
+        <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+      </ul>
+    </div>
+    </div>
+    <script type="text/javascript">
+      function myFunction() {
+      var dropdownContent = document.querySelector('.menu-content');
+      dropdownContent.classList.toggle('menu-toggle');
+    }
+    </script>
+    <script src="js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>
